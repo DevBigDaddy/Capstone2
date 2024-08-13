@@ -1,0 +1,90 @@
+.photo-profil {
+
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+.custom-button {
+    background-color: #E3A539;
+    /* Couleur de fond personnalisée */
+    color: white;
+    /* Couleur du texte */
+    border: 2px solid #323639;
+    /* Couleur de la bordure */
+}
+
+.custom-button:hover {
+    background-color: #AB7C0E;
+    /* Couleur au survol */
+    color: white;
+    border-color: #323639;
+    /* Couleur de la bordure au survol */
+}
+
+.btn-primary {
+    background-color: #375AA6;
+    /* Couleur de fond personnalisée */
+    color: white;
+    /* Couleur du texte */
+    border: 2px solid #323639;
+    /* Couleur de la bordure */
+}
+
+.btn-primary {
+    background-color: #4374df;
+    /* Couleur au survol */
+    color: white;
+    border-color: #323639;
+    /* Couleur de la bordure au survol */
+}
+
+.profile-container {
+    position: relative;
+    z-index: 1; 
+  }
+  
+  .profile-container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100vw;
+    height: 100%;
+    transform: translateX(-50%);
+    background-image: linear-gradient(to right, #3289E5, #E6A612); 
+    z-index: -1; 
+  }
+
+p {
+    color: aliceblue;
+}
+
+
+.features {
+    display: flex;
+    background-image: linear-gradient(to right, #3289E5, #E6A612)
+}
+
+h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p{text-align : justify
+}
+
+.photo-contact {
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    display: inline-block; 
+  }
+
+ 
